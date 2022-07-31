@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ID">
+<head>
+    <title>halaman5</title>
+</head>    
+    <body>
+        <h2>form Pendaftaran </h2> 
+
+<body>
+<form action="hasil.php" method="get">
+
+ <fieldset>
+
+
+ <p>
+
+ <label>nama :</label>
+
+ <input type="text" name="nama" placeholder="nama lengkap">
+
+ </p>
+
+ <p>
+
+ <label>username :</label>
+
+ <input type="text" name="username" required="username">
+
+ </p>
+
+ <p>
+
+ <label for="password">Password: </label>
+
+ <input type="password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="harus berisi setidaknya satu nomor dan satu huruf besar dan huruf kecil,paling sedikit 8 karakter atau lebih">
+
+ </p>
+
+ <p>
+
+ <label>jenis Kelamin :</label>
+
+ <input type="radio" name="jk" value="laki-laki">Laki-laki
+
+ <input type="radio" name="jk" value="perempuan">Perempuan
+
+ </p>
+
+ <p>
+
+ <label>tanggal Lahir :</label>
+
+ <input type="date" name="tanggal">
+
+ </p>
+
+    <p>
+     <label>Pilihan penjualan :</label>
+     <select name="pilihan_penjualan">
+
+     <option value="elektronik">Elektronik</option>
+       
+     <option value="makanan">Makanan</option> 
+
+     <option value="kesehatan">Kesehatan</option> 
+             
+     </select>
+    
+    </p>
+
+ <p>
+
+ <label>email :</label>
+
+ <input type="email" name="email" required="email">
+
+ </p>
+
+ <p>
+
+ <p><label>alamat :</label>
+
+ <input type="text" name="alamat" placeholder="alamat lengkap">
+
+ </p>
+
+ <p>
+  <input type="submit" name="submit" value="Daftar">   
+ </p>
+
+ </fieldset>
+
+</form>
+
+</body>
+
+</html>
